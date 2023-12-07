@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Oswald:wght@400;500;700&family=Playfair+Display:wght@700&family=Playfair:opsz,wght@5..1200,700&family=Roboto:wght@100;300&display=swap');
+
+/*Resets*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: #239b7e;
+    --main-font: 'Playfair Display', serif;
+    --primary-font: 'Roboto', sans-serif;
+}
+/*Nav Section Start*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+nav .logo{
+    font-family: var(--primary-font);
+    margin-left: 5rem;
+}
+nav .burger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+nav .burger span{
+    width: 40px;
+    height: 1px;
+    border: 2px solid var(--main-color);
+    margin: 2px;
+}
+/*Nav Section End*/
+
+/*Header Section Start*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    margin-top: 2rem;
+}
+.main-headings{
+    font-family: var(--main-font);
+    font-size: 4rem;
+    color: #00000097;
+    transform: translateY(-40px);
+    line-height: 5rem;
+}
+.main-headings span{
+    color: #000;
+}
+.primary-headings{
+    font-family: var(--primary-font);
+    max-width: 500px;
+    color: #716d6d;
+    line-height: 25px;
+    margin-bottom: 1rem;
+}
+.btn-fill{
+    background: var(--main-color);
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 1px solid var(--main-color);
+    color: #fff;
+    transition: all 0.13s ease-out;
+    cursor: pointer;
+}
+.btn-fill:hover{
+    background: transparent;
+    color: var(--main-color);
+}
+.btn-outline{
+    border: 1px solid var(--main-color);
+    background: transparent;
+    color: var(--main-color);
+    padding: 10px 20px;
+    margin-right: 20px;
+    transition: all 0.13s ease-out;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.btn-outline:hover{
+    background: var(--main-color);
+    color: #fff;
+}
+.img-container{
+    border-radius: 50%;
+    box-shadow: 4px 7px 5px 2px #bcbaba;
+    margin-bottom: 5rem;
+}
+.header-img{
+    background: url(https://i.ibb.co/9GVbfFv/beebc2707565d64e47f1fb5876b00fb4.jpg);
+    width: 400px;
+    height: 400px;
+    background-position: top;
+    background-size: cover;
+    border-radius: 50%;
+}
+/*Header Section End*/
+
+/*Next Section Start*/
+.next-section-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7rem;
+}
+.next-img{
+    background: url(https://i.postimg.cc/SQX6q1gX/wp7060033.jpg);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-position: top;
+    background-size: cover;
+}
+
+/*Next Section End*/
+
+/*Product Section Start*/
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11rem;
+}
+.products-title{
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    margin-bottom: 48px;
+}
+.products-item-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 60rem;
+    margin: 20px;
+}
+.products-item-container .item{
+    margin: 20px;
+}
+.item-layer{
+    background: #ebf1f0;
+    padding: 40px;
+    margin-bottom: 2rem;
+}
+.products-item-container .item .img{
+    width: 150px;
+    height: 200px;
+}
+.product-name{
+    font-family: var(--primary-font);
+    font-size: 18.72px;
+    margin-bottom: 20px;
+}
+.product-prize{
+    margin-bottom: 10px;
+    font-family: var(--primary-font);
+}
+.view-product{
+    color: var(--main-color);
+    text-decoration: none;
+    font-family: var(--primary-font);
+    border-bottom: 1px solid var(--main-color);
+}
+/*Product Section End*/
+
+/*Customer Review Section Start*/
+.customer-container .heading{
+    font-family: var(--primary-font);
+    margin-top: 10rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+.customer-reviews{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7rem;
+}
+.customer-reviews .customer .customer-image{
+    background: url(https://i.ibb.co/9GVbfFv/beebc2707565d64e47f1fb5876b00fb4.jpg);
+    width: 200px;
+    height: 200px;
+    background-position: top;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.customer-reviews .customer .img-2{
+    background: url(https://i.ibb.co/tbJFNmK/twenty-five-twenty-one-stills.jpg);
+    background-position: top;
+    background-size: cover;
+}
+.customer-reviews .customer .img-1{
+    background: url(https://i.ibb.co/VWb7vk3/kim-tae-ri.jpg);
+    background-position: top;
+    background-size: cover;
+}
+.customer{
+    text-align: center;
+    font-family: var(--primary-font);
+}
+.customer-reviews .customer .customer-description{
+    max-width: 200px;
+    font-family: var(--primary-font);
+    font-size: 12px;
+    margin: 10px;
+}
+/*Customer Review Section End*/
+
+/*Footer Section Start*/
+footer{
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--primary-font);
+    color: #fff;
+    height: 100vh;
+    background: #1f1e1e;
+}
+.footer-sections{
+    margin: 20px;
+}
+.footer-heading{
+    margin-bottom: 3rem;
+}
+.footer-primary-heading{
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 15px;
+}
+/*Footer Section End*/
+
+/*Responsiveness*/
+@media only screen and (max-width: 900px){
+    header{
+        text-align: center;
+        height: 100vh;
+        margin-top: 5rem;
+    }
+    .main-headings{
+        font-size: 3rem;        
+    }
+    .primary-headings{
+        width: 400px;
+    }
+    .header-img{
+        width: 250px;
+        height: 250px;
+    }
+    .next-section-container{
+        
+        text-align: center;
+    }
+    .next-section-container .next-img{
+        height: 250px;
+        width: 250px;
+    }
+    .customer-reviews .customer .customer-image{
+        width: 150px;
+        height: 150px;
+    }
+}
