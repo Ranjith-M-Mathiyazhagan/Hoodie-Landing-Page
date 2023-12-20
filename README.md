@@ -1,5 +1,5 @@
 # Hoodies-Landing-Page
-Explore the world of comfort and style with Hoodies Landing Page, a beginner's project designed to introduce you to the basics of HTML and CSS.
+Explore the world of comfort and style with Hoodies Landing Page, a beginner's project designed to introduce you to the basics of HTML & CSS.
 
 ## Features
 - Hero section inviting you into the world of comfy fashion.
